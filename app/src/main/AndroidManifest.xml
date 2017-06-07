@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="sdmobile1.br.usjt.myapplication">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".TelaSolicitante" />
+        <activity android:name=".NovoChamado" />
+        <activity android:name=".TelaSolucionador" />
+        <activity android:name=".VisualizarChamados" />
+        <activity android:name=".GerenciarFila" />
+        <activity android:name=".ResponderChamados" />
+        <activity android:name=".DetalheChamado" />
+        <activity android:name=".DetalheFila" />
+        <activity android:name=".MeuChamado"></activity>
+    </application>
+
+</manifest>
